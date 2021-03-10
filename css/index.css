@@ -1,0 +1,877 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+.wrapper {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.adv-wrapper {
+    width: 100%;
+    height: 40px;
+    background: #444;
+}
+
+.adv-wrapper-text {
+    color: #a8a8aa;
+    font-size: 12px;
+    text-align: right;
+    line-height: 40px;
+    margin: 0 auto;
+    max-width: 976px;
+}
+
+.nav {
+    width: 100%;
+    height: 44px;
+    background: rgba(0, 0, 0, 1.8);
+}
+
+.nav-content-father {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-content-item {
+    flex: 0 0 7%;
+    box-sizing: border-box;
+    color: #f5f5f7;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 11px;
+}
+
+.nav-small {
+    width: 100%;
+    height: 44px;
+    color: beige;
+    background: rgba(0, 0, 0, 1.8);
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-small span {
+    margin-top: 12px;
+}
+
+#nav-small-first {
+    margin-left: -25px;
+}
+
+.main {
+    width: 100%;
+    /* height: 274rem; */
+}
+
+.zaixian {
+    height: 82px;
+    /* background-color: red; */
+}
+
+.main-head-text {
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    background: white;
+}
+
+.main-head-text a {
+    color: blue;
+}
+
+.main-head-text-content {
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 35px;
+}
+
+
+/* 大图1 SE*/
+
+.main-bigimg1 {
+    background: #131313;
+}
+
+.main-bigimg1-img {
+    width: 1156px;
+    height: 402px;
+    margin: 0 auto;
+    background-size: 1156px 470px;
+    background-repeat: no-repeat;
+    background-image: url('../img/PC/iphone\ SE.jpg');
+}
+
+.main-bigimg1-box {
+    display: flex;
+    justify-content: center;
+}
+
+.main-bigimg1-text {
+    padding-top: 47px;
+    text-align: center;
+}
+
+.main-bigimg1-text>span:first-child {
+    color: #bf4800;
+}
+
+.main-bigimg1-text h2 {
+    font-size: 56px;
+    line-height: 1;
+    color: #f5f5f7;
+}
+
+.main-bigimg1-text h3 {
+    font-size: 28px;
+    color: #f5f5f7;
+    line-height: 1;
+}
+
+.main-bigimg1-text p {
+    color: #86868b;
+}
+
+.main-bigimg1-text a {
+    text-decoration: none;
+    color: #2997ff;
+    margin-left: 20px;
+}
+
+
+/* 大图2 11 */
+
+.main-bigimg2-box {
+    z-index: 1;
+    overflow: visible;
+    background: #FAFAFA;
+    flex-grow: 1;
+}
+
+.main-bigimg2 {
+    background: #FAFAFA;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.main-bigimg2-img {
+    width: 2132px;
+    height: 438px;
+    background-image: url('../img/PC/iphone11.jpg');
+    background-size: 2132px 433px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.main-bigimg2-text {
+    text-align: center;
+    background: #FAFAFA;
+    margin-top: 47px;
+}
+
+.main-bigimg2-text h2 {
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+}
+
+.main-bigimg2-text h3 {
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+}
+
+.main-bigimg2-text p {
+    margin-top: 0.4em;
+    color: #86868b;
+}
+
+.main-bigimg2-text a {
+    text-decoration: none;
+    color: #2997ff;
+    margin-left: 20px;
+}
+
+
+/* 大图3 iPad Pro */
+
+.main-bigimg3 {
+    overflow: hidden;
+    z-index: 1;
+    background: #FAFAFA;
+}
+
+.main-bigimg3-box {
+    z-index: 1;
+    overflow: visible;
+}
+
+.main-bigimg3-img {
+    width: 2545px;
+    height: 590px;
+    background-size: 3010px 624px;
+    background-repeat: no-repeat;
+    background-image: url('../img/PC/iPadPro.jpg');
+    background-position-x: right;
+}
+
+.main-bigimg3-text {
+    text-align: center;
+    padding-top: 47px;
+    background: #FAFAFA;
+}
+
+.main-bigimg3-text h2 {
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+}
+
+.main-bigimg3-text h3 {
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+}
+
+.main-bigimg3-text a {
+    text-decoration: none;
+    color: #2997ff;
+    margin-left: 20px;
+}
+
+
+/* 小图 */
+
+.main-list-img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* AirPods */
+
+.main-list-AirPods {
+    width: 50%;
+    height: 624px;
+    flex: 0 0 50%;
+    overflow: hidden;
+    background: #FAFAFA;
+}
+
+.main-list-AirPods-text {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.main-list-AirPods-text h4 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    margin-top: 53px;
+}
+
+.main-list-AirPods-text h5 {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    margin-top: 4px;
+}
+
+.main-list-AirPods-text a {
+    z-index: 4;
+    text-decoration: none;
+}
+
+.main-list-AirPods-box {
+    flex-grow: 1;
+}
+
+.main-list-AirPods-img {
+    width: 503px;
+    height: 373px;
+    background-size: 503px 323px;
+    background-repeat: no-repeat;
+    background-image: url('../img/PC/list-Aie\ Pods.jpg');
+}
+
+
+/* Mac */
+
+.main-list-Mac {
+    width: 50%;
+    height: 624px;
+    flex: 0 0 50%;
+    overflow: hidden;
+    background: #F1F1F3;
+}
+
+.main-list-Mac-text {
+    flex-grow: 0;
+    z-index: 4;
+    text-align: center;
+    margin-top: 90px;
+    position: relative;
+}
+
+.main-list-Mac-text h4 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    margin-top: 53px;
+}
+
+.main-list-Mac-text a {
+    text-decoration: none;
+}
+
+.main-list-Mac-img {
+    width: 503px;
+    height: 605px;
+    background-size: 503px 323px;
+    background-repeat: no-repeat;
+    background-image: url('../img/PC/list-Mac-iPad.jpg');
+}
+
+
+/* 11 pro */
+
+.main-list-11Pro {
+    width: 50%;
+    height: 624px;
+    flex: 0 0 50%;
+    overflow: hidden;
+    /* background: #000000; */
+}
+
+.main-list-11Pro-text {
+    flex-grow: 0;
+    z-index: 4;
+    margin-top: 90px;
+    text-align: center;
+    position: relative;
+}
+
+.main-list-11Pro-text h4 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-top: 53px;
+    color: #f5f5f7;
+}
+
+.main-list-11Pro-text h5 {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    color: #f5f5f7;
+    margin-top: 4px;
+}
+
+.main-list-11Pro-text p {
+    margin-top: 0.4em;
+    color: #86868b;
+}
+
+.main-list-11Pro-text a {
+    text-decoration: none;
+    margin-left: 3px;
+    color: #06c;
+}
+
+.main-list-11Pro-box {
+    z-index: 1;
+    overflow: visible;
+    flex-grow: 1;
+}
+
+.main-list-11Pro-img {
+    width: 1262px;
+    height: 1050px;
+    background-size: 1002px 630px;
+    background-repeat: no-repeat;
+    background-position-x: -60px;
+    background-image: url('../img/PC/list-11\ Pro.jpg');
+}
+
+
+/* Music */
+
+.main-list-Music {
+    width: 50%;
+    height: 624px;
+    flex: 0 0 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-list-Music-text {
+    text-align: center;
+    margin-top: 90px;
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+}
+
+.main-list-Music-text h4 {
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.main-list-Music-text a {
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+.main-list-Music-box {
+    overflow: visible;
+    flex-grow: 1;
+}
+
+.main-list-Music-img {
+    width: 1262px;
+    height: 1050px;
+    background-size: 982px 837px;
+    background-repeat: no-repeat;
+    background-position-x: -60px;
+    background-image: url(../img/PC/list-music.jpg);
+    background-position-y: 140px;
+}
+
+
+/* WATCH */
+
+.main-list-WATCH {
+    width: 50%;
+    height: 624px;
+    flex: 0 0 50%;
+    overflow: hidden;
+    background: #FAFAFA;
+}
+
+.main-list-WATCH-text {
+    flex-grow: 0;
+    z-index: 4;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.main-list-WATCH-text h4 {
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.main-list-WATCH-text h5 {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    margin-top: 4px;
+}
+
+.main-list-WATCH-text a {
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+.main-list-WATCH-box {
+    overflow: visible;
+    flex-grow: 1;
+}
+
+.main-list-WATCH-img {
+    width: 356px;
+    height: 454px;
+    background-size: 356px 324px;
+    background-repeat: no-repeat;
+    background-image: url('../img/PC/list-watch.jpg');
+}
+
+
+/* iMac */
+
+.main-list-iMac {
+    width: 50%;
+    height: 624px;
+    flex: 0 0 50%;
+    overflow: hidden;
+    background: #F2F2F2;
+}
+
+.main-list-iMac-text {
+    position: relative;
+    flex-grow: 0;
+    z-index: 4;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.main-list-iMac-text h4 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+}
+
+.main-list-iMac-text h5 {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+}
+
+.main-list-iMac-text a {
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+.main-list-iMac-box {
+    z-index: 1;
+    overflow: visible;
+    flex-grow: 1;
+}
+
+.main-list-iMac-img {
+    width: 532px;
+    height: 436px;
+    background-size: 532px 386px;
+    background-repeat: no-repeat;
+    background-image: url('../img/PC/list-iMac.jpg');
+}
+
+
+/* 所有的图片包裹 */
+
+.main-list-AirPods-box,
+.main-list-Mac-box,
+.main-list-11Pro-box,
+.main-list-Music-box,
+.main-list-WATCH-box,
+.main-list-iMac-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-list-AirPods,
+.main-list-Mac,
+.main-list-11Pro,
+.main-list-Music,
+.main-list-WATCH,
+.main-list-iMac {
+    border: 7px solid white;
+    flex: 0 0 48%;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer-text-box {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer-text-box ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.jiaozhu {
+    border-bottom: 1px solid #d2d2d7;
+    color: #86868b;
+    padding: 17px 0 11px;
+}
+
+.jiaozhu ul li {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav label {
+    font-size: 12px;
+}
+
+.footer-nav ul li a {
+    color: gray;
+    font-size: 5px;
+    line-height: 30px;
+}
+
+
+/* 最底下文字 */
+
+.footer-bottom {
+    padding-top: 34px;
+}
+
+.footer-bottom-1 {
+    margin-bottom: 7px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d2d2d7;
+}
+
+.footer-bottom-1 a {
+    color: #06c;
+}
+
+.footer-bottom-2 {
+    position: relative;
+    top: -3px;
+    z-index: 1;
+    display: flex;
+}
+
+.footer-bottom-2-right {
+    position: relative;
+    top: -5px;
+    z-index: 1;
+}
+
+.footer-bottom-2-right a {
+    border-right: 1px solid #d2d2d7;
+    margin-right: 7px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
+.footer-bottom-3 {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+@media screen and (min-width:1156px) and (max-width:1920px) {
+    body {
+        /* background: red; */
+    }
+    .nav-small {
+        display: none;
+    }
+}
+
+
+/* 大于768px 小于1156px  执行 */
+
+@media screen and (min-width: 768px) and (max-width: 1156px) {
+    .nav-small {
+        display: none;
+    }
+    .main-bigimg1-img {
+        width: 100%;
+    }
+    .nav-content-father {
+        justify-content: space-evenly;
+    }
+    .main-list-AirPods-img,
+    .main-list-Mac-img,
+    .main-list-11Pro-img,
+    .main-list-Music-img,
+    .main-list-WATCH-img,
+    .main-list-iMac-img {
+        display: none;
+    }
+    .main-list-AirPods-img-iPad,
+    .main-list-Mac-img-iPad,
+    .main-list-11Pro-img-iPad,
+    .main-list-Music-img-iPad,
+    .main-list-WATCH-img-iPad,
+    .main-list-iMac-img-iPad {
+        display: block;
+    }
+    .main-bigimg1-img,
+    .main-bigimg2-img,
+    .main-bigimg3-img {
+        display: none;
+    }
+    /* 大图 */
+    .main-bigimg1-img-iPad {
+        width: 796px;
+        height: 535px;
+        background-size: 796px 535px;
+        background-repeat: no-repeat;
+        background-image: url('../img/middle/iphoneSE.jpg');
+    }
+    .main-bigimg2-img-iPad {
+        width: 1345px;
+        height: 479px;
+        background-size: 1345px 479px;
+        background-repeat: no-repeat;
+        background-image: url('../img/middle/iphone11.jpg');
+        background-position-x: -185px;
+    }
+    .main-bigimg3-img-iPad {
+        width: 610px;
+        height: 514px;
+        background-size: 610px 514px;
+        background-repeat: no-repeat;
+        background-image: url('../img/middle/iPadPro.jpg');
+    }
+    .main-bigimg3-box {
+        text-align: -webkit-center;
+        background: #FAFAFA;
+    }
+    /* list图 */
+    .main-list-AirPods-img-iPad {
+        width: 371px;
+        height: 323px;
+        background-size: 371px 323px;
+        background-repeat: no-repeat;
+        background-image: url('../img/middle/list-AirPods.jpg');
+    }
+    .main-list-Mac-img-iPad {
+        width: 558px;
+        height: 930px;
+        background-size: 558px 490px;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-image: url('../img/middle/list-Mac.jpg');
+    }
+    .main-list-11Pro-img-iPad {
+        width: 540px;
+        height: 1270px;
+        background-size: 1260px 684px;
+        background-repeat: no-repeat;
+        background-image: url(../img/middle/list-11Pro.jpg);
+        background-position-x: 49%;
+        background-position-y: 84px;
+    }
+    .main-list-Music-img-iPad {
+        width: 540px;
+        height: 792px;
+        background-size: 846px 630px;
+        background-repeat: no-repeat;
+        background-image: url(../img/middle/list-Music.jpg);
+        background-position-x: 49%;
+        background-position-y: 82px;
+    }
+    .main-list-WATCH-img-iPad {
+        width: 356px;
+        height: 520px;
+        background-size: 356px 324px;
+        background-repeat: no-repeat;
+        background-image: url('../img/middle/list-WATCH.jpg');
+    }
+    .main-list-iMac-img-iPad {
+        width: 388px;
+        height: 323px;
+        background-size: 388px 323px;
+        background-repeat: no-repeat;
+        background-image: url('../img/middle/list-iMac.jpg');
+    }
+}
+
+
+/* 大于414px 小于768px 执行  iPad */
+
+@media screen and (min-width:414px) and (max-width:768px) {
+    .nav-content {
+        display: none;
+    }
+    /* 大图 */
+    .main-bigimg1-img,
+    .main-bigimg2-img,
+    .main-bigimg3-img,
+    .main-bigimg1-img-iPad,
+    .main-bigimg2-img-iPad,
+    .main-bigimg3-img-iPad {
+        display: none;
+    }
+    .main-bigimg1-img-6p {
+        width: 346px;
+        height: 326px;
+        background-size: 346px 326px;
+        background-repeat: no-repeat;
+        background-image: url('../img/small/iphoneSE.jpg');
+    }
+    .main-bigimg2-img-6p {
+        width: 916px;
+        height: 312px;
+        background-size: 916px 312px;
+        background-repeat: no-repeat;
+        background-image: url(../img/small/iphone11.jpg);
+        background-position-x: -100px;
+    }
+    .main-bigimg3-img-6p {
+        width: 442px;
+        height: 488px;
+        background-size: 600px 568px;
+        background-position-y: -140px;
+        background-repeat: no-repeat;
+        background-image: url('../img/small/iPadPro.jpg');
+    }
+    .main-bigimg3-box {
+        display: flex;
+        justify-content: center;
+        background: #FAFAFA;
+        position: relative;
+    }
+    .main-bigimg3-text {
+        text-align: center;
+        z-index: 2;
+    }
+    .main-list-AirPods,
+    .main-list-Mac,
+    .main-list-11Pro,
+    .main-list-Music,
+    .main-list-WATCH,
+    .main-list-iMac {
+        flex: 0 0 98%;
+    }
+    .main-list-Music-img {
+        width: 715px;
+        height: 867px;
+        background-size: 775px 867px;
+        background-repeat: no-repeat;
+        background-position-x: -60px;
+        background-position-y: 120px;
+    }
+    .footer-nav {
+        flex-wrap: wrap;
+    }
+    .footer-nav div {
+        flex: 0 0 33%;
+    }
+}
+
+
+/* 大于230px  小于414px 执行 */
+
+@media screen and (min-width: 230px) and (max-width: 414px) {
+    .nav-content {
+        display: none;
+    }
+    .main-list-AirPods,
+    .main-list-Mac,
+    .main-list-11Pro,
+    .main-list-Music,
+    .main-list-WATCH,
+    .main-list-iMac {
+        flex: 0 0 98%;
+    }
+}

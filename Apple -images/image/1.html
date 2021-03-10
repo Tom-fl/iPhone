@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="./bigImage/apple_music__gdfamywhn6ye_large.jpg" alt="">
+    <script>
+        var img = document.querySelectorAll("img")[0]
+        console.log(img);
+        window.onresize = () => {
+            var window_width = document.body.clientWidth
+            console.log(window_width);
+            if (window_width < 700) {
+                console.log(img.src);
+                img.src = "./bigImage/hero__dvsxv8smkkgi_large (1).jpg"
+            }
+        }
+    </script>
+</body>
+
+</html>
